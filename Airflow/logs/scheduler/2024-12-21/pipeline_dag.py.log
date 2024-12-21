@@ -2615,3 +2615,10 @@ ImportError: cannot import name 'DA' from 'airflow' (/home/airflow/.local/lib/py
 [2024-12-21T15:42:01.385+0000] {logging_mixin.py:190} INFO - [2024-12-21T15:42:01.385+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-12-21T15:42:01.420+0000] {logging_mixin.py:190} INFO - [2024-12-21T15:42:01.420+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
 [2024-12-21T15:42:01.443+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.132 seconds
+[2024-12-21T15:42:31.531+0000] {processor.py:186} INFO - Started process (PID=10207) to work on /opt/airflow/dags/pipeline_dag.py
+[2024-12-21T15:42:31.532+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/pipeline_dag.py for tasks to queue
+[2024-12-21T15:42:31.536+0000] {logging_mixin.py:190} INFO - [2024-12-21T15:42:31.535+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/pipeline_dag.py
+[2024-12-21T15:42:31.562+0000] {processor.py:925} INFO - DAG(s) 'pipeline_dag' retrieved from /opt/airflow/dags/pipeline_dag.py
+[2024-12-21T15:42:31.587+0000] {logging_mixin.py:190} INFO - [2024-12-21T15:42:31.586+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-21T15:42:31.616+0000] {logging_mixin.py:190} INFO - [2024-12-21T15:42:31.615+0000] {dag.py:4180} INFO - Setting next_dagrun for pipeline_dag to 2024-12-21 00:00:00+00:00, run_after=2024-12-22 00:00:00+00:00
+[2024-12-21T15:42:31.635+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/pipeline_dag.py took 0.113 seconds
